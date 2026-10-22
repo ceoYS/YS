@@ -1,7 +1,8 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css");
 :root{--bg:#080e1c;--card:#101a2c;--card-hover:#17253b;--stroke:#27364a;--text:#f5f1e9;--muted:#acb7c8;--soft:#7e90a6;--accent:#d6b889;--accent-bright:#f3d9aa;--radius:19px}
 *{box-sizing:border-box}
 html{scroll-behavior:smooth}
-body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font-family:ui-sans-serif,-apple-system,BlinkMacSystemFont,"Pretendard","Noto Sans KR","Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font-family:"Pretendard Variable","Pretendard",-apple-system,BlinkMacSystemFont,system-ui,"Noto Sans KR",sans-serif;-webkit-font-smoothing:antialiased}
 .page-glow{position:fixed;pointer-events:none;z-index:-1;inset:0;background:radial-gradient(ellipse 50% 38% at 50% -6%,#273c5b99,transparent 82%),radial-gradient(ellipse 32% 33% at 110% 78%,#3d2e283d,transparent 85%)}
 .shell{max-width:740px;padding:37px 24px 28px;margin:auto}
 .brand-row{display:flex;align-items:center;gap:12px}
@@ -9,21 +10,21 @@ body{margin:0;min-height:100vh;background:var(--bg);color:var(--text);font-famil
 .separator{width:1px;height:14px;background:var(--stroke)}
 .eyebrow,.overline,.section-head>span{letter-spacing:.18em;font-weight:700;font-size:10px;color:var(--soft)}
 .intro{text-align:center;position:relative}.intro .brand-row{text-align:left;margin-bottom:53px}
-.avatar{width:78px;height:78px;display:grid;place-items:center;margin:0 auto 23px;border-radius:24px;background:linear-gradient(135deg,#19283e,#0c1525);border:1px solid #3f5067;box-shadow:0 20px 55px #0306109c;font-family:Georgia,serif;font-size:48px;font-weight:bold;letter-spacing:-.14em;padding-right:7px}
+.avatar{width:78px;height:78px;display:grid;place-items:center;margin:0 auto 23px;border-radius:24px;background:linear-gradient(135deg,#19283e,#0c1525);border:1px solid #3f5067;box-shadow:0 20px 55px #0306109c;font-family:"Pretendard Variable","Pretendard",sans-serif;font-size:48px;font-weight:bold;letter-spacing:-.14em;padding-right:7px}
 .avatar-dot{color:var(--accent);font-family:inherit;font-size:44px;margin-left:-1px}
 .overline{color:var(--accent);margin:0 0 12px}
 h1{font-size:clamp(34px,5.3vw,53px);line-height:1.28;letter-spacing:-.07em;font-weight:690;margin:0}
 h1 em{font-style:normal;color:var(--accent-bright)}
 .lead{color:var(--muted);font-size:14px;line-height:1.9;margin:20px 0 53px;letter-spacing:-.025em}
 .section-head{display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid var(--stroke);margin-bottom:16px;padding:0 2px 13px}
-h2{font-family:Georgia,serif;font-size:21px;font-style:italic;font-weight:400;letter-spacing:-.02em;margin:0}.section-head>span{letter-spacing:.11em}
+h2{font-family:Georgia,serif;font-size:21px;font-style:normal;font-weight:400;letter-spacing:-.02em;margin:0}.section-head>span{letter-spacing:.11em}
 .link-list{display:flex;flex-direction:column;gap:11px}
 .link-card{display:flex;align-items:center;gap:15px;width:100%;border:1px solid var(--stroke);border-radius:var(--radius);background:linear-gradient(115deg,#132034,#0e1828);color:var(--text);text-decoration:none;padding:17px 18px;min-height:87px;position:relative;transition:transform .2s,border-color .2s,background .2s}
 .link-card:not(.pending):hover{transform:translateY(-3px);background:var(--card-hover);border-color:#826f56}
 .link-card:focus-visible,.back-to-top:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
 .link-card.featured{min-height:103px;border-color:#78674d;background:linear-gradient(115deg,#342c2b 0%,#1d2737 47%,#111e30 100%)}
 .link-card.featured:hover{background:linear-gradient(115deg,#45372e,#243349)}
-.link-icon{flex:0 0 47px;height:47px;display:grid;place-items:center;border-radius:14px;background:#ffffff0d;border:1px solid #ffffff13;color:var(--accent-bright);font:600 16px Georgia,serif}
+.link-icon{flex:0 0 47px;height:47px;display:grid;place-items:center;border-radius:14px;background:#ffffff0d;border:1px solid #ffffff13;color:var(--accent-bright);font:600 16px "Pretendard Variable","Pretendard",sans-serif}
 .featured .link-icon{background:#d6b88919;border-color:#d6b8893c}
 .link-text{min-width:0;flex:1}.link-title{display:flex;align-items:center;gap:8px;font-size:15px;font-weight:660;letter-spacing:-.025em;margin-bottom:5px}.link-desc{font-size:12.5px;color:var(--muted);line-height:1.5;letter-spacing:-.015em}
 .link-arrow{flex:0 0 26px;align-self:center;text-align:center;color:var(--accent);font-size:23px;transition:transform .2s}
